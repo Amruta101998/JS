@@ -1,0 +1,26 @@
+<!-- Question 1
+What is the value of clothes[0] and why?
+const clothes = ['jacket', 't-shirt'];
+clothes.length = 0;
+console.log(clothes[0]); -->
+
+<!-- The value of clothes[0] is undefined because when we do not consider clothes.length = 0; then clothes[0]=jacket as it is
+an array but here clothes.length=0 will give you 0 which is integer so it will print undefined -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const clothes = ['jacket', 't-shirt'];
+
+       clothes.length = 0;
+
+    console.log(clothes[0]);
+    </script>
+
+</body>
+</html>

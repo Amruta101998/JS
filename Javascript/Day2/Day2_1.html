@@ -1,0 +1,42 @@
+<!-- Question 1
+What will the code below output to the console and why ?
+console.log(1 + "2" + "2");
+console.log(1 + +"2" + "2");
+console.log(1 + -"1" + "2");
+console.log(+"1" + "1" + "2");
+console.log( "A" - "B" + "2");
+console.log( "A" - "B" + 2); -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Javascript</title>
+</head>
+<body>
+   <script>
+       //output = 122
+       //2 in this case are the characters so will print as it is
+       console.log(1 + "2" + "2");
+
+       //output = 32
+       // 1++ will add first
+       console.log(1 + +"2" + "2");
+
+       //output = 02
+       //1+-1 will give 0
+       console.log(1 + -"1" + "2");
+
+       //output = 112
+       // all are characters so will as it is
+       console.log(+"1" + "1" + "2");
+
+       //output = NAN2
+       console.log( "A" - "B" + "2");
+
+       //output = NAN
+       console.log( "A" - "B" + 2);;
+   </script>
+    
+</body>
+</html>
+
